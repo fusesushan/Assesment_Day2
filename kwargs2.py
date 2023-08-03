@@ -8,8 +8,8 @@ function should return the total cost of all items.
 def calculate_total_cost(**kwargs):
     '''function implementing kwargs tat gives total cost of items purchased'''
     price = 0
-    for _, v in kwargs.items():
-        price += v
+    for _, value in kwargs.items():
+        price += value
     return price
 
 print(calculate_total_cost.__doc__)
