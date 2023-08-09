@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "e:/FuseMachine/Assesment_Day2/file2_json.py", line 33, in <module>
+    add_to_json(filename, new_data)
+  File "e:/FuseMachine/Assesment_Day2/file2_json.py", line 11, in add_to_json
+    existing_data = json.load(file)
+  File "C:\Users\asus\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Users\asus\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\asus\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\asus\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
